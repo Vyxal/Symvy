@@ -1,0 +1,33 @@
+Symvy Transpilation System
+
+| -> abs
+s -> sin
+c -> cos
+t -> tan
+! -> factorial
+l -> log
+L -> log_10
+S -> ^ 2
+h -> / 2
+D -> * 2
+x, y, z -> x, y, z
+R -> square root
+r -> n-th root
+] -> close all brackets
+} -> ))
+[ -> )))
+{ -> last expr ** 2
+w -> everything previous in brackets
+@ -> last 2 items as a single unit
+$ -> last 3 items as a single unit
+# -> last 4 items as a single unit
+~ -> last * -last
+\ -> 1 /
+: -> duplicate last term
+; -> apply last to every term of second last (vectorise)
+? -> another variable
+' -> first derivative
+" -> second derivative
+I -> integrate
+W -> all items to previous bracket or start of line as a single unit
+P -> all items to previous letter or start of line as a single unit
